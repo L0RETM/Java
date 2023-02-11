@@ -4,11 +4,14 @@ public class HelloWorld {
 
 	public static void main(String[] args) {
 		
-		holaMundo();
-		holaMundo();
+		//holaMundo();
+		//holaMundo();
 		
 		//metodo con parametro
-		holaMundo("lorena");
+		//holaMundo("lorena");
+		
+		String hola = devuelveTexto();
+		System.out.println(devuelveTexto());
 
 	}
 
@@ -22,6 +25,11 @@ public class HelloWorld {
 	//ejemplo de una funcion y llamada
 	private static void holaMundo() {
 		System.out.println("hola mundo");
+		
+	}
+	//metodo cuando quiero que devuelva texto o numero
+	private static String devuelveTexto() {
+		return "hola devuelvo un texto";
 		
 	}
 
