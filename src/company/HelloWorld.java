@@ -6,7 +6,17 @@ public class HelloWorld {
 		
 		holaMundo();
 		holaMundo();
+		
+		//metodo con parametro
+		holaMundo("lorena");
 
+	}
+
+	//metodo con parametro
+	private static void holaMundo(String name) {
+		System.out.println("hola"+name ); 
+		
+		
 	}
 
 	//ejemplo de una funcion y llamada
